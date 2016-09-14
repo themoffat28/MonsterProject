@@ -8,7 +8,7 @@ public class MonsterController
 	
 	public MonsterController()
 	{
-		Gorgonzola = new MarshmallowMonster("Gorgonzola", 6, 4, false, 0, 4); 
+		Gorgonzola = new MarshmallowMonster("Gorgonzola", 6.0, 4, false, 0, 4); 
 	}	
 	public void start()
 	{
