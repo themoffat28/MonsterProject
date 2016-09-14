@@ -37,9 +37,34 @@ public class MarshmallowMonster
 	
 	public String toString()
 	{
-		String description = "Name is " + this.name;
+		String description = "His name is " + this.name;                       
 		
 		return description;
+	}
+	
+	public double getAntennaCount()
+	{
+		return antennaCount;
+	}
+	
+	public int getEyeCount()
+	{
+		return eyeCount;
+	}
+	
+	public boolean getHasBellyButton()
+	{
+		return hasBellyButton;
+	}
+	
+	public int getArmCount()
+	{
+		return armCount;
+	}
+	
+	public int getNoseCount()
+	{
+		return noseCount;
 	}
 }
 
