@@ -20,12 +20,7 @@ public class MarshmallowMonster
 		this.noseCount = -563635;
 	}
 	
-	public MarshmallowMonster(String name, 
-							  	double antennaCount, 
-							  		int eyeCount, 
-							  			boolean hasBellyButton, 
-							  				int armCount, 
-							  					int noseCount)
+	public MarshmallowMonster(String name, double antennaCount, int eyeCount, boolean hasBellyButton, int armCount, int noseCount)
 	{
 		this.name = name;
 		this.antennaCount = antennaCount;
@@ -42,29 +37,59 @@ public class MarshmallowMonster
 		return description;
 	}
 	
-	public double getAntennaCount()
+			public double getAntennaCount()
 	{
-		return antennaCount;
+			return antennaCount;
 	}
 	
-	public int getEyeCount()
+					public int getEyeCount()
 	{
-		return eyeCount;
+					return eyeCount;
 	}
 	
-	public boolean getHasBellyButton()
+						public boolean getHasBellyButton()
 	{
-		return hasBellyButton;
+						return hasBellyButton;
 	}
 	
-	public int getArmCount()
+							public int getArmCount()
 	{
-		return armCount;
+							return armCount;
 	}
 	
-	public int getNoseCount()
+								public int getNoseCount()
 	{
-		return noseCount;
+								return noseCount;
+	}
+	
+	public void setName(String name)
+	{
+		this.name = name;
+	}
+	
+			public void setAntennaCount(int antennaCount)
+	{
+			this.antennaCount = antennaCount;
+	}
+	
+					public void setEyeCount(int eyeCount)
+	{
+					this.eyeCount = eyeCount;
+	}
+	
+							public void setHasBellyButton(boolean hasBellyButton)
+	{
+							this.hasBellyButton = hasBellyButton;
+	}
+	
+									public void setArmCount(int armCount)
+	{
+									this.armCount = armCount;
+	}
+	
+											public void setNoseCount(int noseCount)
+	{
+											this.noseCount = noseCount;
 	}
 }
 
