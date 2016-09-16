@@ -37,29 +37,29 @@ public class MarshmallowMonster
 		return description;
 	}
 	
-			public double getAntennaCount()
+				public double getAntennaCount()
 	{
-			return antennaCount;
+				return antennaCount;
 	}
 	
-					public int getEyeCount()
+						public int getEyeCount()
 	{
-					return eyeCount;
+						return eyeCount;
 	}
 	
-						public boolean getHasBellyButton()
+							public boolean getHasBellyButton()
 	{
-						return hasBellyButton;
+							return hasBellyButton;
 	}
 	
-							public int getArmCount()
+								public int getArmCount()
 	{
-							return armCount;
+								return armCount;
 	}
 	
-								public int getNoseCount()
+									public int getNoseCount()
 	{
-								return noseCount;
+									return noseCount;
 	}
 	
 	public void setName(String name)
