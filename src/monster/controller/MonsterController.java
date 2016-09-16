@@ -23,8 +23,7 @@ public class MonsterController
 		System.out.println("doesn't have a belly button");
 		System.out.println(Gorgonzola.getArmCount() + " arms");
 		System.out.println("and " + Gorgonzola.getNoseCount() + " noses");
-		
-		System.out.println("Do you want to change his name?");
+		System.out.println("Do you want to change my name?");
 		String answer = keyboardInput.nextLine();
 			if(answer.equalsIgnoreCase("yes"))
 		{
@@ -34,32 +33,12 @@ public class MonsterController
 		}
 			if(answer.equalsIgnoreCase("no"))
 			{
-				System.out.println("Thanks! I like his name.");
+				System.out.println("Thanks! I like my name.");
 			}
 			else
 			{
 				System.out.println("What?");
 			}
 				System.out.println(Gorgonzola);
-				
-		System.out.println(Gorgonzola.getName() + " has always wondered what it's like to have a belly button.. should we give him one?");
-		String answerBellyButton = keyboardInput.nextLine();
-			if(answerBellyButton.equalsIgnoreCase("yes"))
-		{
-				System.out.println("Cool! I bet he will like it.");
-				Gorgonzola.setHasBellyButton (true);
-		}
-			if(answerBellyButton.equalsIgnoreCase("no"))
-			{
-				System.out.println("That's alright, he's used to not having one.");
-			}
-			if(Gorgonzola.getHasBellyButton() == true)
-			{
-				System.out.println(Gorgonzola.getName() + " now has a belly button!");
-			}
-			else
-			{
-				System.out.println(Gorgonzola.getName() + " still doesn't have a belly button.");
-			}
 	}
 }
