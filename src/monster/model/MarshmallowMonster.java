@@ -2,14 +2,14 @@ package monster.model;
 
 public class MarshmallowMonster
 {
-	
+
 	private String name;
 	private double antennaCount;
 	private int eyeCount;
 	private boolean hasBellyButton;
 	private int armCount;
 	private int noseCount;
-	
+
 	public MarshmallowMonster()
 	{
 		this.name = "Terrence";
@@ -19,7 +19,7 @@ public class MarshmallowMonster
 		this.armCount = -34;
 		this.noseCount = -563635;
 	}
-	
+
 	public MarshmallowMonster(String name, double antennaCount, int eyeCount, boolean hasBellyButton, int armCount, int noseCount)
 	{
 		this.name = name;
@@ -29,67 +29,71 @@ public class MarshmallowMonster
 		this.armCount = armCount;
 		this.noseCount = noseCount;
 	}
-	
+
 	public String toString()
 	{
-		String description = "His name is " + this.name;                       
-		
+		String description = "His name is " + this.name;
+
 		return description;
 	}
-	
-				public double getAntennaCount()
+
+	public String getName()
 	{
-				return antennaCount;
+		return name;
 	}
-	
-						public int getEyeCount()
+
+	public double getAntennaCount()
 	{
-						return eyeCount;
+		return antennaCount;
 	}
-	
-							public boolean getHasBellyButton()
+
+	public int getEyeCount()
 	{
-							return hasBellyButton;
+		return eyeCount;
 	}
-	
-								public int getArmCount()
+
+	public boolean getHasBellyButton()
 	{
-								return armCount;
+		return hasBellyButton;
 	}
-	
-									public int getNoseCount()
+
+	public int getArmCount()
 	{
-									return noseCount;
+		return armCount;
 	}
-	
+
+	public int getNoseCount()
+	{
+		return noseCount;
+	}
+
 	public void setName(String name)
 	{
 		this.name = name;
 	}
-	
-			public void setAntennaCount(int antennaCount)
+
+	public void setAntennaCount(int antennaCount)
 	{
-			this.antennaCount = antennaCount;
+		this.antennaCount = antennaCount;
 	}
-	
-					public void setEyeCount(int eyeCount)
+
+	public void setEyeCount(int eyeCount)
 	{
-					this.eyeCount = eyeCount;
+		this.eyeCount = eyeCount;
 	}
-	
-							public void setHasBellyButton(boolean hasBellyButton)
+
+	public void setHasBellyButton(boolean hasBellyButton)
 	{
-							this.hasBellyButton = hasBellyButton;
+		this.hasBellyButton = hasBellyButton;
 	}
-	
-									public void setArmCount(int armCount)
+
+	public void setArmCount(int armCount)
 	{
-									this.armCount = armCount;
+		this.armCount = armCount;
 	}
-	
-											public void setNoseCount(int noseCount)
+
+	public void setNoseCount(int noseCount)
 	{
-											this.noseCount = noseCount;
+		this.noseCount = noseCount;
 	}
 }
-
