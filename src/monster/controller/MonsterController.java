@@ -24,6 +24,7 @@ public class MonsterController
 		System.out.println(Gorgonzola.getArmCount() + " arms");
 		System.out.println("and " + Gorgonzola.getNoseCount() + " noses");
 		
+		
 		System.out.println("Do you want to change his name?");
 		String answer = keyboardInput.nextLine();
 			if(answer.equalsIgnoreCase("yes"))
@@ -61,5 +62,27 @@ public class MonsterController
 			{
 				System.out.println(Gorgonzola.getName() + " still doesn't have a belly button.");
 			}
+			
+			loopMonster();
 	}
+	
+	
+	private void loopMonster()
+	{
+		//Define variable for condition/test
+		int numberOfTimes = 0;
+		while(numberOfTimes < 1000)
+		{
+			//Code to do
+			System.out.print(Gorgonzola);
+			//Code to change variable for condition
+			numberOfTimes++;
+		}
+		
+		for(int count = 0; count < 1000; count++)
+		{
+			System.out.println(Gorgonzola);
+		}
+	}
+	
 }
